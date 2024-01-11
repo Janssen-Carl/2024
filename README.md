@@ -1,4 +1,4 @@
-Please use the latest code (ordersys3. c) for the fixed version of the code. 
+Please use the latest code (order_sys3. c) for the fixed version of the code. 
 
 This is a program that mimics an ordering system. As you run the program, you'll see 3 choices: 
 1. order  // use this option if you want to order
@@ -30,3 +30,6 @@ you'll see the grand total and it will ask you to pay, please input the amount t
 note:
 if you input insufficient amount, the order will be automatically terminated as well as the program, stock won't be deducted
 
+
+problem:
+	-> whenever there's already an existing file receipt, the previous doesn't get overwritten by the new receipt 
